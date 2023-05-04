@@ -248,6 +248,9 @@ SILENCED_SYSTEM_CHECKS += ["rest_framework.W001"]
 INTERNAL_IPS = [  # django debug toolbar for django==2.2 requirement
     '127.0.0.1',
     'localhost',
+    'localhost:4200',
+    'sandbox.pnc.cgi.com',
+    'sandbox.pnc.cgi.com:7214'
 ]
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_METHODS = [
